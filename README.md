@@ -23,3 +23,34 @@ Solid is actually an acronym and that represents five different design principle
 `A- High level modules should not depend upon low level modules. Both should depend upon Abstractions.`
 
 `B- Abstractions should not depend upon details. Details should depend upon Abstractions.`
+
+# Design Patterns
+
+1- Creational:
+
+`Deal with the process of creation of objects of classes`
+
+- Builder
+
+- Simple Factory
+
+- Factory Method
+
+- Prototype
+
+- Singleton
+
+- Abstract Factory
+
+- Object Pool
+
+
+
+
+
+
+
+
+
+
+
