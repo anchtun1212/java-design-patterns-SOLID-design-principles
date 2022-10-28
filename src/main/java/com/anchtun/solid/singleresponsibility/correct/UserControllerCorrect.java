@@ -3,7 +3,7 @@ package com.anchtun.solid.singleresponsibility.correct;
 import java.io.IOException;
 
 import com.anchtun.constant.Constants;
-import com.anchtun.model.User;
+import com.anchtun.solid.singleresponsibility.model.User;
 
 //Handles incoming JSON requests that work on User resource/entity
 public class UserControllerCorrect {

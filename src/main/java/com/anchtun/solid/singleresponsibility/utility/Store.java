@@ -1,9 +1,9 @@
-package com.anchtun.utility;
+package com.anchtun.solid.singleresponsibility.utility;
 
 import java.util.HashMap;
 import java.util.Map;
 
-import com.anchtun.model.User;
+import com.anchtun.solid.singleresponsibility.model.User;
 
 // Store data in memory
 public class Store {

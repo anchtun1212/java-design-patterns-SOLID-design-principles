@@ -1,7 +1,7 @@
 package com.anchtun.solid.singleresponsibility.correct;
 
-import com.anchtun.model.User;
-import com.anchtun.utility.Store;
+import com.anchtun.solid.singleresponsibility.model.User;
+import com.anchtun.solid.singleresponsibility.utility.Store;
 
 public class UserPersistenceService {
 

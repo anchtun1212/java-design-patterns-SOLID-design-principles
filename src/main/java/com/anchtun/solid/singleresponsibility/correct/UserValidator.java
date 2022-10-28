@@ -3,7 +3,7 @@ package com.anchtun.solid.singleresponsibility.correct;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-import com.anchtun.model.User;
+import com.anchtun.solid.singleresponsibility.model.User;
 
 //So this class will change only if something changes in our validation logic.
 //It will not get affected if we change, for example, how we store the user object.

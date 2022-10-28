@@ -1,6 +1,6 @@
 package com.anchtun.solid.singleresponsibility.correct;
 
-import com.anchtun.model.User;
+import com.anchtun.solid.singleresponsibility.model.User;
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.JsonMappingException;
 import com.fasterxml.jackson.databind.ObjectMapper;

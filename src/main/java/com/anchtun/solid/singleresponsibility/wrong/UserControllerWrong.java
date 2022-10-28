@@ -4,8 +4,8 @@ import java.io.IOException;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-import com.anchtun.model.User;
-import com.anchtun.utility.Store;
+import com.anchtun.solid.singleresponsibility.model.User;
+import com.anchtun.solid.singleresponsibility.utility.Store;
 import com.fasterxml.jackson.databind.ObjectMapper;
 
 //What whenever you are trying to test whether an existing code or existing class satisfies the single

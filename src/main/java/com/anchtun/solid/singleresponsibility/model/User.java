@@ -1,4 +1,4 @@
-package com.anchtun.model;
+package com.anchtun.solid.singleresponsibility.model;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

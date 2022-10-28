@@ -2,7 +2,7 @@ package com.anchtun.solid.openclosed.correct;
 
 import java.util.List;
 
-import com.anchtun.model.CallHistory;
+import com.anchtun.solid.openclosed.model.CallHistory;
 
 // open for modification
 public class PhoneSubscriber extends Subscriber {

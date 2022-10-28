@@ -2,7 +2,7 @@ package com.anchtun.solid.openclosed.wrong;
 
 import java.util.List;
 
-import com.anchtun.model.CallHistory;
+import com.anchtun.solid.openclosed.model.CallHistory;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

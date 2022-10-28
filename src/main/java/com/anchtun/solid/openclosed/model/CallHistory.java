@@ -1,4 +1,4 @@
-package com.anchtun.model;
+package com.anchtun.solid.openclosed.model;
 
 import java.time.LocalDateTime;
 import java.util.Collections;

@@ -2,7 +2,7 @@ package com.anchtun.solid.openclosed.correct;
 
 import java.util.List;
 
-import com.anchtun.model.InternetSessionHistory;
+import com.anchtun.solid.openclosed.model.InternetSessionHistory;
 
 import lombok.Data;
 import lombok.EqualsAndHashCode;
