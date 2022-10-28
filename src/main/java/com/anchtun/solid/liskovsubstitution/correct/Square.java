@@ -1,0 +1,16 @@
+package com.anchtun.solid.liskovsubstitution.correct;
+
+import lombok.AllArgsConstructor;
+import lombok.Data;
+
+@Data
+@AllArgsConstructor
+public class Square implements Shape {
+
+	private int side;
+	
+	@Override
+	public int computeArea() {
+		return side * side;
+	}
+}
