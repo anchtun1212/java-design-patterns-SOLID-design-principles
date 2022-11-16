@@ -44,6 +44,24 @@ Solid is actually an acronym and that represents five different design principle
 
 - Object Pool
 
+2- Structural:
+
+`Deal with how classes and objects are arranged or composed`
+
+- Adapter
+
+- Bridge
+
+- Decorator
+
+- Composite
+
+- Facade
+
+- Flyweight
+
+- Proxy
+
 # Clean code
 
 - Is a development style that produces software that's easy to write, read and maintain, also easy to understand and easy to
