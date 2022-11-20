@@ -1,6 +1,7 @@
 package com.anchtun.designpatterns.structural.decorator;
 
 import java.util.Base64;
+
 import lombok.AllArgsConstructor;
 
 //Decorator. Implements component interface
