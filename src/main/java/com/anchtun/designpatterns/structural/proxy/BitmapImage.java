@@ -1,4 +1,4 @@
-package com.anchtun.designpatterns.structural.proxy.staticvirtual;
+package com.anchtun.designpatterns.structural.proxy;
 
 import javafx.geometry.Point2D;
 

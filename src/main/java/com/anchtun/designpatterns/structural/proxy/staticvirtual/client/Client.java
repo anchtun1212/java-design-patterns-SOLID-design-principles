@@ -1,6 +1,6 @@
 package com.anchtun.designpatterns.structural.proxy.staticvirtual.client;
 
-import com.anchtun.designpatterns.structural.proxy.staticvirtual.Image;
+import com.anchtun.designpatterns.structural.proxy.Image;
 import com.anchtun.designpatterns.structural.proxy.staticvirtual.ImageFactory;
 
 import javafx.geometry.Point2D;

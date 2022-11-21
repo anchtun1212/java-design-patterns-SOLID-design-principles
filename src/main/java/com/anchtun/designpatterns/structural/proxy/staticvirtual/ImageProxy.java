@@ -1,5 +1,8 @@
 package com.anchtun.designpatterns.structural.proxy.staticvirtual;
 
+import com.anchtun.designpatterns.structural.proxy.BitmapImage;
+import com.anchtun.designpatterns.structural.proxy.Image;
+
 import javafx.geometry.Point2D;
 
 // virtual proxy is static proxy
