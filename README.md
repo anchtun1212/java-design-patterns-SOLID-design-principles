@@ -62,6 +62,34 @@ Solid is actually an acronym and that represents five different design principle
 
 - Proxy
 
+3- Behavioral:
+
+`Describe how classes and objects interact & communicate with each other`
+
+- Chain of Responsibility
+
+- Command
+
+- Interpreter
+
+- Mediator
+
+- Iterator
+
+- Memento
+
+- Observer
+
+- State
+
+- Strategy
+
+- Template Method
+
+- Visitor
+
+- Null Object
+
 # Clean code
 
 - Is a development style that produces software that's easy to write, read and maintain, also easy to understand and easy to
