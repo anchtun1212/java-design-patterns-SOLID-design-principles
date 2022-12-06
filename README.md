@@ -126,3 +126,25 @@ Solid is actually an acronym and that represents five different design principle
  
  - Not needed to code takes time and effort and very often plans change, so maybe you will need to refactor it in a few days.
  
+# TIPS
+ 
+For `Mediator` pattern, to run the client you need to follow those steps:
+
+ - Download JavaFX: https://gluonhq.com/products/javafx/  
+ 
+   I am using linux so I download this version: `openjfx-19_linux-x64_bin-sdk`
+ 
+ - Run this command: `unzip openjfx-19_linux-x64_bin-sdk.zip -d /opt/Java/`
+
+ - Run this command: `cd /opt/Java`
+ 
+ - Run this command: `mv javafx-sdk-19 jfx`
+ 
+ - I am using eclipse so go to: `Run Configurations... >> Arguments >> VM arguments` and add this line: `--module-path /opt/Java/jfx/lib --add-modules javafx.controls,javafx.fxml`
+ 
+ - Enjoy !!!
+ 
+ 
+ 
+ 
+ 
