@@ -128,7 +128,7 @@ Solid is actually an acronym and that represents five different design principle
  
 # TIPS
  
-For `Mediator` pattern, to run the client you need to follow those steps:
+For `Mediator` design pattern, to run the client you need to follow those steps:
 
  - Download JavaFX: https://gluonhq.com/products/javafx/  
  
