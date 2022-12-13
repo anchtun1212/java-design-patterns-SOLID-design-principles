@@ -1,0 +1,36 @@
+package com.anchtun.designpatterns.behavioral.state;
+
+import com.anchtun.designpatterns.behavioral.state.states.Cancelled;
+import com.anchtun.designpatterns.behavioral.state.states.Delivered;
+import com.anchtun.designpatterns.behavioral.state.states.InTransit;
+import com.anchtun.designpatterns.behavioral.state.states.New;
+import com.anchtun.designpatterns.behavioral.state.states.OrderState;
+import com.anchtun.designpatterns.behavioral.state.states.Paid;
+
+// Context class
+public class Order {
+	// current state of order
+	private OrderState currentState;
+
+	public Order() {
+		currentState = new New();
+	}
+
+	public double cancel() {
+		double charges = currentState.handleCancellation();
+		currentState = new Cancelled();
+		return charges;
+	}
+
+	public void paymentSuccessful() {
+		currentState = new Paid();
+	}
+
+	public void dispatched() {
+		currentState = new InTransit();
+	}
+
+	public void delivered() {
+		currentState = new Delivered();
+	}
+}
